@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url('../img/library.png');
+    background-image: url('../img/library.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
@@ -26,8 +26,8 @@ button {
     padding: 18px 12px;
     text-align: center;
     justify-content: start;
-    background-color: #2DBF0B;
-    color: #212020;
+    background-color: #77798f;
+    color: #000000;
 }
 
 main {
@@ -41,14 +41,14 @@ main {
     display: flex;
     flex-direction: column;
     padding: 24px;
-    border: 5px solid #2DBF0B;
+    border: 5px solid #77798f;
     border-radius: 15px;
     background: #fff;
 }
 
 .input-sec>h2 {
     text-align: center;
-    color: #2DBF0B;
+    color: #494a52;
     margin-bottom: 20px;
 }
 
@@ -57,7 +57,7 @@ main {
 }
 
 .input-sec>form>button {
-    background-color: #2DBF0B;
+    background-color: #77798f;
     color: white;
     border: 0;
     border-radius: 5px;
@@ -70,7 +70,7 @@ main {
 
 .input-sec>form>#editBuku,
 .input-sec>form>#submitBuku {
-    background: #2DBF0B;
+    background: #494a52;
     color: #fff;
     padding: 8px;
     width: 75%;
@@ -82,7 +82,7 @@ main {
 
 .input-sec>form>#editBuku:active,
 .input-sec>form>#submitBuku:active {
-    background-color: #0d7e25;
+    background-color: #77798f;
 }
 
 .input-sec>form>#editBuku {
@@ -98,7 +98,7 @@ main {
 }
 
 .input-sec>form>.input>label {
-    color: #2DBF0B;
+    color: #77798f;
     font-weight: bold;
 }
 
@@ -109,21 +109,21 @@ main {
 }
 
 .input-sec>form>.input_inline>label {
-    color: #2DBF0B;
+    color: #77798f;
     font-weight: bold;
     margin-right: 10px;
 }
 
 .book_shelf {
     margin: 35px 0 0 0;
-    border: 5px solid #2DBF0B;
+    border: 5px solid #77798f;
     padding: 24px;
     border-radius: 15px;
     background: #fff;
 }
 
 .book_shelf>h2 {
-    color: #2DBF0B;
+    color: #494a52;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -229,7 +229,7 @@ p {
 footer {
     padding: 20px;
     color: #212020;
-    background-color: #2DBF0B;
+    background-color: #77798f;
     text-align: center;
     font-weight: bold;
 }
